@@ -5,11 +5,12 @@ import ServicesSection from "../components/ServicesSection";
 
 
 const AboutUs = () => {
-    return 
-    <>
-        <AboutSection />
-        <ServicesSection/>
-    </>
+    return (
+        <>
+            <AboutSection />
+            <ServicesSection />
+        </>
+    );
 };
 
 export default AboutUs;
