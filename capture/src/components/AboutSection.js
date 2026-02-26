@@ -31,6 +31,8 @@ const AboutSection = () => {
 }
 
 // styled components
-const About = styled.div
+const About = styled.div`
+
+`
 
 export default AboutSection;
