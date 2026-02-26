@@ -32,7 +32,9 @@ const AboutSection = () => {
 
 // styled components
 const About = styled.div`
-
+   min-height: 90vh;
+   display: flex;
+   
 `
 
 export default AboutSection;
