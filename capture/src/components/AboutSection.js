@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const AboutSection = () => {
     return (
-      <div>
+      <div className="about">
         <div className="description">
           <div className="title">
             <div className="hide">
@@ -29,5 +29,8 @@ const AboutSection = () => {
       </div> 
     );
 }
+
+// styled components
+const
 
 export default AboutSection;
