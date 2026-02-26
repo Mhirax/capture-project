@@ -34,7 +34,7 @@ const AboutSection = () => {
 const About = styled.div`
    min-height: 90vh;
    display: flex;
-   
+   align-items: center;
 `
 
 export default AboutSection;
