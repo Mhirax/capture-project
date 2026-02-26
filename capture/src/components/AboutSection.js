@@ -31,6 +31,6 @@ const AboutSection = () => {
 }
 
 // styled components
-const
+const About = styled.
 
 export default AboutSection;
