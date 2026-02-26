@@ -10,6 +10,7 @@ const AboutUs = () => {
         <>
             <AboutSection />
             <ServicesSection />
+            <FaqSection />
         </>
     );
 };
