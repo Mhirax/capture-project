@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-const GlobalStyle = createGlobalStyle `
+const GlobalStyle = createGlobalStyle`
   *{
   margin: 0;
   padding: 0;
@@ -23,9 +23,38 @@ button {
  &:hover {
  background-color: #23d997;
  color: white;
-
  }
 }
+
+h2 {
+  font-weight: lighter;
+  font-size: 2rem; 
+}
+
+  h3 {
+  color: white;
+  }
+
+  h4 {
+   color: #23d997;
+   font-weight: bold;
+  }
+
+  a {
+   font-size: 1.1rem;
+  }
+
+   span {
+    font-weight: bold;
+    color: #23d997;
+   }
+
+  p {
+   padding: 3rem 0rem;
+   color: #ccc;
+   font-size: 1.4rem;
+   line-height: 150%;
+  }
 `;
 
 
