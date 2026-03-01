@@ -7,6 +7,7 @@ import FaqSection from "../components/FaqSection";
 
 const AboutUs = () => {
     return (
+        // the use of frgament 
         <>
             <AboutSection />
             <ServicesSection />
