@@ -2,7 +2,7 @@ import React from "react";
 import home1 from '../img/home1.png';
 //styled
 import styled from 'styled-components';
-import { About, Description, Image } from "../pages/style";
+import { About, Description, Image, Hide } from "../pages/style";
 
 const AboutSection = () => {
     return (
