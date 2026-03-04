@@ -6,10 +6,11 @@ import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
 import home2 from "../img/home2.png"
 //styles
+import { About,Description, Image } from "../pages/style";
 
 const ServicesSection = () => {
     return (
-      <div className="services">
+      <About>
         <div className="description">
           <h2>
             High <span>quality</span> services
@@ -48,7 +49,7 @@ const ServicesSection = () => {
             <div className="image">
               <img src={home2} alt="camera"/>
             </div>
-      </div>
+      </About>
     );
 }
 

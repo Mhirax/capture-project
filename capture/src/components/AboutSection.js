@@ -4,6 +4,7 @@ import home1 from '../img/home1.png';
 import styled from 'styled-components';
 import { About, Description, Image, Hide } from "../pages/style";
 
+
 const AboutSection = () => {
     return (
       <About>
