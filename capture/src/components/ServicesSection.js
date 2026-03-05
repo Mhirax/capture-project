@@ -7,50 +7,60 @@ import teamwork from "../img/teamwork.svg";
 import home2 from "../img/home2.png"
 //styles
 import { About,Description, Image } from "../pages/style";
+import styled from "styled-components";
 
 const ServicesSection = () => {
-    return (
-      <About>
-        <div className="description">
-          <h2>
-            High <span>quality</span> services
-          </h2>
-          <div className="cards">
-            <div className="card">
-              <div className="icon">
-                <img alt="icon" src={clock} />
-                <h3>Efficient</h3>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
+  return (
+    <About>
+      <Description>
+        <h2>
+          High <span>quality</span> services
+        </h2>
+        <div className="cards">
+          <div className="card">
+            <div className="icon">
+              <img alt="icon" src={clock} />
+              <h3>Efficient</h3>
             </div>
-            <div className="card">
-              <div className="icon">
-                <img alt="icon" src={teamwork} />
-                <h3>TeamWork</h3>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div className="card">
-              <div className="icon">
-                <img alt="icon" src={diaphragm} />
-                <h3>Diaphragm</h3>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div className="card">
-              <div className="icon">
-                <img alt="icon" src={money} />
-                <h3>Affordable</h3>
-              </div>
-              <p>Lorem ipsum dolor sit amet.</p>
-            </div>
+            <p>Lorem ipsum dolor sit amet.</p>
           </div>
+          <div className="card">
+            <div className="icon">
+              <img alt="icon" src={teamwork} />
+              <h3>TeamWork</h3>
             </div>
-            <div className="image">
-              <img src={home2} alt="camera"/>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div className="card">
+            <div className="icon">
+              <img alt="icon" src={diaphragm} />
+              <h3>Diaphragm</h3>
             </div>
-      </About>
-    );
-}
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div className="card">
+            <div className="icon">
+              <img alt="icon" src={money} />
+              <h3>Affordable</h3>
+            </div>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </Description>
+      <Image>
+        <img src={home2} alt="camera" />
+      </Image>
+    </About>
+  );
+};
+
+const Services = styled(About)`
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 10rem;
+  color: white;
+`;
 
 export default ServicesSection;
