@@ -17,34 +17,34 @@ const ServicesSection = () => {
           High <span>quality</span> services
         </h2>
         <cards>
-          <div className="card">
+          <card>
             <div className="icon">
               <img alt="icon" src={clock} />
               <h3>Efficient</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div className="card">
+          </card>
+          <card>
             <div className="icon">
               <img alt="icon" src={teamwork} />
               <h3>TeamWork</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div className="card">
+          </card>
+          <card>
             <div className="icon">
               <img alt="icon" src={diaphragm} />
               <h3>Diaphragm</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div className="card">
+          </card>
+          <card>
             <div className="icon">
               <img alt="icon" src={money} />
               <h3>Affordable</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
-          </div>
+          </card>
         </cards>
       </Description>
       <Image>
@@ -73,7 +73,11 @@ flex-wrap: wrap;
 
 const card = styled.div`
  flex-basis: 20rem;
- 
+ .icon {
+  display: flex;
+  align-items: center;
+ }
+
 `;
 
 export default ServicesSection;
