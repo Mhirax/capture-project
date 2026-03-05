@@ -11,12 +11,12 @@ import styled from "styled-components";
 
 const ServicesSection = () => {
   return (
-    <About>
+    <Services>
       <Description>
         <h2>
           High <span>quality</span> services
         </h2>
-        <div className="cards">
+        <cards>
           <div className="card">
             <div className="icon">
               <img alt="icon" src={clock} />
@@ -45,22 +45,35 @@ const ServicesSection = () => {
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
-        </div>
+        </cards>
       </Description>
       <Image>
         <img src={home2} alt="camera" />
       </Image>
-    </About>
+    </Services>
   );
 };
 
 const Services = styled(About)`
-  min-height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5rem 10rem;
-  color: white;
+h2 {
+ padding-bottom: 5rem;
+}
+
+p {
+width: 70%;
+padding: 2rem 0rem 4rem 0rem;
+}
+  
+`;
+
+const cards = styled.div`
+display: flex;
+flex-wrap: wrap;
+`;
+
+const card = styled.div`
+ flex-basis: 20rem;
+ 
 `;
 
 export default ServicesSection;
